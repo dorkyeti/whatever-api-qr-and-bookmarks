@@ -1,0 +1,26 @@
+{
+  "name": "whatever",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon . --trace-warnings"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.0.0",
+    "@fastify/helmet": "^9.1.0",
+    "bcrypt": "^5.0.1",
+    "deta": "^1.1.0",
+    "dotenv": "^16.0.1",
+    "fastify": "^4.3.0",
+    "luxon": "^3.0.1",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
